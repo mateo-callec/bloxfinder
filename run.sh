@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -lt 1 ]; then
+if [ $# -lt 2 ]; then
     echo "Usage: ./run.sh <users_file_path> <output_directory>" >&2
     exit 1
 fi
