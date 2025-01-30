@@ -2,6 +2,8 @@
 
 **BloxFinder** is a crawler developed by **Matéo Florian CALLEC**, designed to primarily investigate **terrorist and criminal networks** on the Roblox platform.
 
+![2D Network](docs/illustrations/2d_network.jpg)
+
 ## Table of Contents
 1. [Setup](#setup)
     - [BloxFinder Setup](#bloxfinder-setup)
