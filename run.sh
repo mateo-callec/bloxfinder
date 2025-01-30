@@ -6,7 +6,7 @@ if [ $# -lt 1 ]; then
 fi
 
 # Define the main variables
-scriptPath="../build/index.php"
+scriptPath="./src/index.php"
 usersFilePath=$1
 indexerPath=$2
 
@@ -17,8 +17,8 @@ if [ ! -f "$scriptPath" ]; then
 fi
 
 # Check if the indexer path exists
-if [ ! -f "$indexerPath" ]; then
-    echo "The script '$indexerPath' does not exist." >&2
+if [ ! -d "$indexerPath" ]; then
+    echo "The directory '$indexerPath' does not exist." >&2
     exit 1
 fi
 
