@@ -74,4 +74,4 @@ The software downloads the data from the user specified and its friends. The fri
 ## License
 
 BloxFinder is released under the MIT License.
-See the `LICENSE.txt` file for more details.
+See the [LICENSE] file for more details.
